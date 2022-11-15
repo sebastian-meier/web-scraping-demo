@@ -1,0 +1,19 @@
+{
+  "name": "web-scraping-demo",
+  "version": "1.0.0",
+  "description": "Collects and sorts daily data from Potsdam's mensa",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-meier/web-scraping-demo.git"
+  },
+  "author": "sebastian-meier",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.2.2"
+  }
+}
