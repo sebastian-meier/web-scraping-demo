@@ -10,7 +10,7 @@ puppeteer
   .launch()
   .then(async (browser) => {
     const page = await browser.newPage();
-    await page.goto("https://www.bvg.de/de/verbindungen/stoerungsmeldungen", {waitUntil: 'networkidle2'});
+    await page.goto(process.env.SCRAPE_URL, {waitUntil: 'networkidle2'});
     
     const disruptions = {};
 

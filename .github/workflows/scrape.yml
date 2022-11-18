@@ -10,8 +10,6 @@ on:
         - info
         - warning
         - debug
-  schedule:
-    - cron:  '0 0 * * *'
 jobs:
   scraper:
     runs-on: ubuntu-latest
